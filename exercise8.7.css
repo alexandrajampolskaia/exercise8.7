@@ -1,3 +1,7 @@
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
 h1 {
     color: black;
     font-family: courier;
@@ -5,19 +9,27 @@ h1 {
     left: 525px;
 }
 
-.palm{
-  height: 238px;
-  width: 159px;
+.plant{
+  height:350px;
+  width:525px;
+  position:relative;
+  left: 190px;
+  filter: grayscale(50%);
+}
+
+.study{
+  height: 250px;
+  width: 375px;
   filter: grayscale(80%);
 }
   
   .box1{
-    height: 238px;
-    width: 159px;
+    height: 250px;
+    width: 375px;
     padding:0px;
     position: relative;
-    top: 20px;
-    left: 565px; 
+    top: -300px;
+    left: 535px; 
     border: 0px solid white;  
     background-color: pink;
     text-align: center;
@@ -25,37 +37,46 @@ h1 {
   }
   
   .box2 {
-    height: 232px;
-    width: 153px;
+    height: 245px;
+    width: 370px;
     padding:3px;
     position: relative;
-    top:-218px;
-    left:730px;
+    top:-480px;
+    left:940px;
     border: px solid grey;
     background-color: white;
-    text-align: center;
+    text-align: left;
     font-size: 1 em;
     font-family: courier;
   }
   
   .box3 {
-    height: 232px;
-    width: 153px;
+    height: 245px;
+    width: 370px;
     padding:3px;
     position: relative;
-    top: -210px;
-    left: 565px; 
+    top: -420px;
+    left: 240px; 
     border: px solid white;  
     background-color: white;
-    text-align: center;
+    text-align: left;
     font-size: 1 em;
     font-family: courier;
   }
 
-.yoga{
-  height: 238px;
-  width: 159px;
+.palm{
+  height:350px;
+  width:525px;
   filter: grayscale(80%);
+}
+
+.yoga{
+  height:255px;
+  width:219px;
+  filter: grayscale(80%);
+  position: relative;
+  top:-900px;
+  left:620px;
 }
   
   .box4 {
@@ -63,8 +84,8 @@ h1 {
     width: 159px;
     padding:0px;
     position: relative;
-    top:-448px;
-    left:730px;
+    top:-500px;
+    left:715px;
     border: px solid grey;
     background-color: beige;
     text-align: center;
