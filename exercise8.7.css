@@ -7,6 +7,7 @@ h1 {
     font-family: courier;
     position: relative; 
     left: 525px;
+align:center;
 }
 
 .plant{
@@ -21,6 +22,7 @@ h1 {
   height: 250px;
   width: 375px;
   filter: grayscale(80%);
+  border: 5px solid white; 
 }
   
   .box1{
@@ -77,6 +79,7 @@ h1 {
   position: relative;
   top:-900px;
   left:620px;
+  border: 5px solid white; 
 }
   
   .box4 {
